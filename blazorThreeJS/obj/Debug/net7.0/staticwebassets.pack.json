@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\threeJS.bundle.js",
+      "PackagePath": "staticwebassets\\js\\threeJS.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\threeJS.bundle.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\js\\threeJS.bundle.js.LICENSE.txt"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.blazorThreeJS.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

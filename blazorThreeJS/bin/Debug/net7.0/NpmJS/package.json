@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack ./src/index.js --output-path ../wwwroot/js --output-filename threeJS.bundle.js --mode=development"
   },
   "keywords": [],
   "author": "",
