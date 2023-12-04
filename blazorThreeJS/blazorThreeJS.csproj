@@ -7,20 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NpmJS\**" />
+    <Content Remove="NpmJS\**" />
+    <EmbeddedResource Remove="NpmJS\**" />
+    <None Remove="NpmJS\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.13" PrivateAssets="all" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="NpmJS\src\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\src\index.js" />
-  </ItemGroup>
     <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-		<Exec Command="npm install" WorkingDirectory="NpmJS" />
-	    <Exec Command="npm run build" WorkingDirectory="NpmJS" />
+		<Exec Command="npm install" WorkingDirectory="wwwroot" />
 	</Target>
 
 </Project>

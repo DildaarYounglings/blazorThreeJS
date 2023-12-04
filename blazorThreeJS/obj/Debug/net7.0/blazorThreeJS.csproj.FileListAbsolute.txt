@@ -822,6 +822,4 @@ C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\obj\Debug\net
 C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\obj\Debug\net7.0\refint\blazorThreeJS.dll
 C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\obj\Debug\net7.0\blazorThreeJS.pdb
 C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\obj\Debug\net7.0\ref\blazorThreeJS.dll
-C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\bin\Debug\net7.0\NpmJS\package-lock.json
-C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\bin\Debug\net7.0\NpmJS\package.json
 C:\Users\Dildaar_Abrahams\source\repos\blazorThreeJS\blazorThreeJS\obj\Debug\net7.0\blazorThreeJS.sourcelink.json

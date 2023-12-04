@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kLW0Q/l3ou/7Hq+91wSiOmMIcUGP0oqae9pY7uqcAG0=",
+  "Hash": "zek5QLDWBlOlJBsA0XSzk8Du6bZ6FGSt0TCOREXQfqs=",
   "Source": "blazorThreeJS",
   "BasePath": "/",
   "Mode": "Root",
@@ -7693,12 +7693,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\threeJS.bundle.js",
+      "Identity": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\interop.js",
       "SourceId": "blazorThreeJS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "js/threeJS.bundle.js",
+      "RelativePath": "js/interop.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7709,15 +7709,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\threeJS.bundle.js"
+      "OriginalItemSpec": "wwwroot\\js\\interop.js"
     },
     {
-      "Identity": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\threeJS.bundle.js.LICENSE.txt",
+      "Identity": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\package.json",
       "SourceId": "blazorThreeJS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "js/threeJS.bundle.js.LICENSE.txt",
+      "RelativePath": "package.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7728,7 +7728,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\threeJS.bundle.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\package.json"
+    },
+    {
+      "Identity": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\package-lock.json",
+      "SourceId": "blazorThreeJS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "package-lock.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\package-lock.json"
     }
   ]
 }

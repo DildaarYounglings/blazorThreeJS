@@ -1,13 +1,23 @@
-﻿@page "/"
+﻿@page "/";
+@inject IJSRuntime JsRuntime;
 
 <div style="display:block;position:absolute;top:100px">
     <div>
         <h1>
             Frontend Web Developer
         </h1>
+        <button @onclick="CreateAlert">create alert</button>
+        <canvas id="@canvasid"></canvas>
     </div>
     <div>
         <h2></h2>
         <p></p>
     </div>
 </div>
+@code{
+    string canvasid = "canvasid";
+    async Task CreateAlert(){
+        await JsRuntime.InvokeVoidAsync("threeExample",canvasid);
+        
+    }
+}

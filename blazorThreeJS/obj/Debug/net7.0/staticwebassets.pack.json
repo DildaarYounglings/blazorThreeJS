@@ -17,12 +17,16 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\threeJS.bundle.js",
-      "PackagePath": "staticwebassets\\js\\threeJS.bundle.js"
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\interop.js",
+      "PackagePath": "staticwebassets\\js\\interop.js"
     },
     {
-      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\threeJS.bundle.js.LICENSE.txt",
-      "PackagePath": "staticwebassets\\js\\threeJS.bundle.js.LICENSE.txt"
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.blazorThreeJS.Microsoft.AspNetCore.StaticWebAssets.props",
