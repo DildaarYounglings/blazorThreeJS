@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\OrbitControls.min.js",
+      "PackagePath": "staticwebassets\\js\\OrbitControls.min.js"
+    },
+    {
       "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\interop.js",
       "PackagePath": "staticwebassets\\js\\interop.js"
+    },
+    {
+      "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\js\\three.min.js",
+      "PackagePath": "staticwebassets\\js\\three.min.js"
     },
     {
       "Id": "C:\\Users\\Dildaar_Abrahams\\source\\repos\\blazorThreeJS\\blazorThreeJS\\wwwroot\\package-lock.json",

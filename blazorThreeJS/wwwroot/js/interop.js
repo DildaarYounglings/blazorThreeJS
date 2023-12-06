@@ -1,34 +1,40 @@
 ﻿
         // main.js
 function threeExample(canvasId) { // NOTE: three dancing balls example
-    var canvas = document.getElementById(canvasId);
+    let canvas = document.getElementById(canvasId);
 
     // NOTE: create the scene to place objects in
-    var scene = new THREE.Scene();
+    let scene = new THREE.Scene();
     scene.background = new THREE.Color(0x6699cc); // NOTE: make the background blue for the sky
     scene.matrixWorldAutoUpdate = true;
 
-
-
     // NOTE: the width and height of the parent element; this information is static and should be updated when the browser window is resized
-    var size = {
+    let size = {
+        windowWidth: window.innerWidth,
+        windowHeight: window.innerHeight,
         width: canvas.parentNode.offsetWidth,
         height: canvas.parentNode.offsetHeight
+        
     };
 
     // NOTE: issue these statements when resizing the window
-    // camera.aspect = size.width / size.height;
-    // camera.updateProjectionMatrix();
-    // renderer.setPixelRatio(window.devicePixelRatio);
-    // renderer.setSize(size.width, size.height);
+    /*camera.aspect = size.width / size.height;
+    camera.updateProjectionMatrix();
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(size.width, size.height);*/
 
 
 
     // NOTE: create the camera with 53 degree field of view; this is how the scene is viewed by the user
-    var camera = new THREE.PerspectiveCamera(53, size.width / size.height, 1, 5000);
+    let camera = new THREE.PerspectiveCamera(
+        /*field of view*/ 45,
+        /*aspect ration*/ size.windowWidth / size.height,
+        /*range before camera lose sight of objects on scene*/1,
+        /*end range before camera lose sight of objects on scene*/5000
+    );
 
     // NOTE: position the camera in space a bit
-    camera.position.z = 5;
+    camera.position.z = 20;/*higher the value the more futher away from the center of the scene. the lower the value the closer to center of the screen*/
 
 
     var renderer = new THREE.WebGLRenderer({
@@ -36,29 +42,32 @@ function threeExample(canvasId) { // NOTE: three dancing balls example
     });
     renderer.shadowMap.enabled = true;
     renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(size.width, size.height);
+    renderer.setSize(size.windowWidth, size.windowHeight);
     renderer.render(scene, camera);
 
 
 
     // NOTE: create three spheres
-    
-
-
+    let geometry = new THREE.SphereGeometry(3, 64, 64);
+    let material = new THREE.MeshStandardMaterial({
+        color: "#00ff83",
+    });
+    let mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
 
     // NOTE: create the ground
-    var plane = new THREE.Mesh(new THREE.PlaneGeometry(1000, 1000), new THREE.MeshLambertMaterial({ color: 0x00aa00 }));
+    /*var plane = new THREE.Mesh(new THREE.PlaneGeometry(1000, 1000), new THREE.MeshLambertMaterial({ color: 0x00aa00 }));
     plane.position.x = 0;
     plane.position.y = 0;
     plane.position.z = -50;
     plane.rotation.x = 4.75;
     plane.receiveShadow = true;
-    scene.add(plane);
+    scene.add(plane);*/
 
 
 
     // NOTE: this light will follow the mouse cursor
-    var light = new THREE.PointLight(0xffffff);
+    let light = new THREE.PointLight(0xffffff);
     light.position.x = 51.5;
     light.position.y = 862.5;
     light.position.z = 10;
@@ -126,12 +135,6 @@ function threeExample(canvasId) { // NOTE: three dancing balls example
     //handler(canvas, "mousemove", moveLight);
 
 
-    // NOTE: this will reset the light after the mouse moves out
-    handler(canvas, "mouseout", function () {
-        light.position.x = 51.5;
-        light.position.y = 862.5;
-        light.position.z = 10;
-    });
 
 
     // NOTE: MUST HAVE AN ANIMATE FUNCTION
@@ -141,5 +144,4 @@ function threeExample(canvasId) { // NOTE: three dancing balls example
         renderer.render(scene, camera);
     };
     animate();
-
 }
