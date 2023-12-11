@@ -144,4 +144,12 @@ function threeExample(canvasId) { // NOTE: three dancing balls example
         renderer.render(scene, camera);
     };
     animate();
+
+    window.addEventListener('resize', () => {
+        size.windowWidth = window.innerWidth;
+        size.windowHeight = window.innerHeight;
+
+        camera.aspect = size.windowWidth / size.windowHeight;
+        renderer.setSize(size.windowWidth, size.windowHeight);
+    })
 }
