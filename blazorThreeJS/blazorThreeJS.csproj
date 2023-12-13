@@ -14,24 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\FileToData.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.13" PrivateAssets="all" />
   </ItemGroup>
     <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
 		<Exec Command="npm install" WorkingDirectory="wwwroot" />
 	</Target>
-    <ItemGroup>
-      <UpToDateCheckInput Remove="Pages\FileToData.razor" />
-    </ItemGroup>
-    <ItemGroup>
-      <_ContentIncludedByDefault Remove="Pages\FileToData.razor" />
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="Pages\FileToData.razor" />
-    </ItemGroup>
 
 </Project>

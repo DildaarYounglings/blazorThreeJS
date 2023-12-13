@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blazorThreeJS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e7372d836f20552833229f69f9bd2f00c48b6bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b69b106eed8a0a1d98312f4d85c00db9d6811c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("blazorThreeJS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blazorThreeJS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

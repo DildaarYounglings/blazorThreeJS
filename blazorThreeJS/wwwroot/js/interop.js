@@ -26,13 +26,12 @@ function threeExample(canvasId) { // NOTE: three dancing balls example
 
 
     // NOTE: create the camera with 53 degree field of view; this is how the scene is viewed by the user
-    let camera = new THREE.PerspectiveCamera(
+    let camera= new THREE.PerspectiveCamera(
         /*field of view*/ 45,
         /*aspect ration*/ size.windowWidth / size.height,
         /*range before camera lose sight of objects on scene*/1,
         /*end range before camera lose sight of objects on scene*/5000
     );
-
     // NOTE: position the camera in space a bit
     camera.position.z = 20;/*higher the value the more futher away from the center of the scene. the lower the value the closer to center of the screen*/
 
