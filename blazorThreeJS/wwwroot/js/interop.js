@@ -137,12 +137,12 @@ function threeExample(canvasId) { // NOTE: three dancing balls example
 
 
     // NOTE: MUST HAVE AN ANIMATE FUNCTION
-    var animate = function () {
+    var loop = function () {/* loop function */
         var time = Date.now();
-        requestAnimationFrame(animate);
+        requestAnimationFrame(loop);
         renderer.render(scene, camera);
     };
-    animate();
+    loop();
 
     window.addEventListener('resize', () => {
         size.windowWidth = window.innerWidth;
